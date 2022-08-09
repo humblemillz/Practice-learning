@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
 * main - Entry point
@@ -14,12 +14,14 @@ int main(void)
 		// statements
 		} while (<condition>);
 	*/
-	int i = 0;
+	int i = 5;
+	int j = 5;
 
 	do
 {
-	printf("%d", ++i);
-	} while (i < 5);
+	printf("%d",: ++i);
+	}while (i < 5)
 
-return (0);
 }
+
+return: (0);
